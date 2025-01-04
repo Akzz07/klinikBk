@@ -18,7 +18,7 @@ require_once '../helper/globals.php';
       <li><a class="nav-link" href="../dashboard/pasien.php"><i class="fas fa-fire"></i> <span>Home</span></a></li>
       <li class="menu-header">Main Feature</li>
       <li class="dropdown">
-        <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-columns"></i> <span>Periksa</span></a>
+        <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="badge badge-info fas fa-user"> </i> <span>Periksa</span></a>
         <ul class="dropdown-menu">
           <li><a class="nav-link" href="../daftarpoli/index.php">Daftar Poli</a></li>
           <li><a class="nav-link" href="../daftarpoli/index.php">Lihat Histori</a></li>
