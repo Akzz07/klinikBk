@@ -2,11 +2,15 @@
 require_once '../layout/_doktop.php';
 require_once '../helper/connect.php';
 
+$id = $_SESSION['id'];
+
 // Query untuk mengambil data pasien dan statusnya
 $query = "SELECT dp.id, dp.no_antrian, p.nama AS nama_pasien, dp.keluhan, dp.status 
           FROM daftar_poli dp
-          JOIN pasien p ON dp.id_pasien = p.id";
-
+          INNER JOIN pasien p ON dp.id_pasien = p.id
+          INNER JOIN jadwal_periksa ON dp.id_jadwal = jadwal_periksa.id
+          INNER JOIN dokter ON jadwal_periksa.id_dokter = dokter.id
+          WHERE dokter.id = '$id'";
 $result = mysqli_query($connect, $query);
 ?>
 
