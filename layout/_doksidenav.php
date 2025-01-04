@@ -17,28 +17,28 @@ require_once '../helper/globals.php';
       <li><a class="nav-link" href="index.php"><i class="fas fa-fire"></i> <span>Home</span></a></li>
       <li class="menu-header">Main Feature</li>
       <li class="dropdown">
-        <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-columns"></i> <span>Jadwal periksa</span></a>
+        <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="badge badge-success fas fa-user-md"> </i> <span>Jadwal periksa</span></a>
         <ul class="dropdown-menu">
           <li><a class="nav-link" href="../jadwalperiksa/index.php">Lihat jadwal</a></li>
           <li><a class="nav-link" href="../jadwalperiksa/create.php">Tambah Jadwal</a></li>
         </ul>
       </li>
       <li class="dropdown">
-        <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-columns"></i> <span>Memeriksa Pasien</span></a>
+        <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="badge badge-success fas fa-user-md"> </i> <span>Memeriksa Pasien</span></a>
         <ul class="dropdown-menu">
           <li><a class="nav-link" href="../memeriksapasien/index.php">Lihat</a></li>
           <!-- <li><a class="nav-link" href="../pasien/create.php">Tambah Data</a></li> -->
         </ul>
       </li>
       <li class="dropdown">
-        <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-columns"></i> <span>Riwayat Pasien</span></a>
+        <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="badge badge-success fas fa-user-md"> </i> <span>Riwayat Pasien</span></a>
         <ul class="dropdown-menu">
           <li><a class="nav-link" href="../riwayatpasien/index.php">Lihat</a></li>
           <!-- <li><a class="nav-link" href="../poli/create.php">Tambah Data</a></li> -->
         </ul>
       </li>
       <li class="dropdown">
-        <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-columns"></i> <span>Edit Profil</span></a>
+        <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="badge badge-success fas fa-user-md"> </i> <span>Edit Profil</span></a>
         <ul class="dropdown-menu">
           <li><a class="nav-link" href="../editdokter/index.php">Edit</a></li>
           <!-- <li><a class="nav-link" href="../obat/create.php">Tambah Obat</a></li> -->
